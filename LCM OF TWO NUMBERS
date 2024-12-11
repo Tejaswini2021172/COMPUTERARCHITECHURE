@@ -1,0 +1,10 @@
+LXI H, 8000 
+MOV C, M 
+MVI B, 00 
+INX H 
+MOV A, M 
+CMA 
+MOV E, A 
+MVI D, 0FFH 
+MOV A, B 
+CMA 
